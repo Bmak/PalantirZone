@@ -1,0 +1,99 @@
+# Localization strings, Key|Value
+
+MessageView_Ok|OK
+MessageView_Back|Back
+MessageView_Yes|Yes
+MessageView_No|No
+MessageView_Buy|Buy
+MessageView_Cancel|Cancel
+
+NumberFormatUtil_Unit_Format_Millions|{0}M
+NumberFormatUtil_Unit_Format_Thousands|{0}K
+
+Shared_NumberSeparatorThousands|,
+Shared_Ellipsis|...
+
+preloader_view.proceed|Click to proceed
+
+global_use|Use
+global_reward|Reward
+global_thanks|Thanks
+global_take|Take
+global_close|Close
+global_open|Open
+
+too_far_warning|You are too far from this object! You should stay no farther than 50 meters.
+inventory_profile_switch_model_btn|Switch Model
+
+inventory_profile_title|Profile
+inventory_collection_title|Collection
+inventory_collection_start_merge_hint|You can merge your souls into better one
+inventory_collection_start_merge_button|Start
+inventory_collection_finish_merge_button|Merge
+inventory_collection_cancel_merge_button|Cancel
+inventory_collection_upgrade_button|Upgrade
+inventory_collection_restore_button|Restore
+inventory_collection_release_button|Set Free
+inventory_collection_minigame_1|MagicCircle
+inventory_collection_minigame_2|BlackHole
+inventory_collection_minigame_3|FastTap
+inventory_training_finished|Training finished
+
+inventory_quest_title|Quests
+inventory_quest_no_quests|No acitve quests!\nGo and find some.
+inventory_quest_cancel_button|Cancel
+inventory_quest_confirm_cancle_title|Are you sure you want to cancel this quest?
+
+card_level_up|+ Level
+
+resources_mana|Mana
+resources_sparkles|Sparkles
+resources_soulstones|Soulstones
+
+trade_add|Add
+trade_buy|Buy
+
+# Quest
+1:destroy:20|”ничтожено ƒухов «емли [b]{0}[/b] из [b]{1}[/b]
+
+# Fight
+fight_player_stats|Your stats
+fight_player_mana|Your mana:
+fight_player_energy|Your energy:
+fight_start_button|Fight!
+fight_choose_button|Choose souls
+fight_close_button|Back to map
+fight_result_res_spent|Resources spent:
+fight_result_lose_title|YOU LOST
+fight_result_win_title|YOU WIN
+fight_capture_title|CAPTURING
+fight_win|WIN
+fight_lose|LOSE
+
+# Sleepers
+sleepers_title|Sleepers
+sleepers_create|Create dream
+sleepers_collect|Collect
+sleepers_choose_soul|Choose souls!
+sleepers_set_soul|Fill slots by souls
+sleepers_dreaming|Dreaming...
+sleepers_efficiency|Dream efficiency:
+sleeper_name|Name: [b]{0}[/b]
+sleeper_prof|Profession: [b]{0}[/b]
+sleeper_gender|Gender: [b]{0}[/b]
+sleeper_age|Age: [b]{0}[/b]
+sleeper_height|Height: [b]{0}[/b]
+
+#Lantern
+lantern_lightup|Ignite
+
+
+
+
+
+
+
+
+
+
+

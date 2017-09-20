@@ -1,0 +1,307 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{C1A60800-AF9D-984B-9EED-45B8A763E904}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{E097FAD1-6243-4DAD-9C02-E9B9EFC3FFC1};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <TargetFrameworkIdentifier>.NETFramework</TargetFrameworkIdentifier>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Unity Subset v3.5</TargetFrameworkProfile>
+    <CompilerResponseFile></CompilerResponseFile>
+    <UnityProjectType>Game:1</UnityProjectType>
+    <UnityBuildTarget>Android:13</UnityBuildTarget>
+    <UnityVersion>5.5.2p4</UnityVersion>
+    <RootNamespace></RootNamespace>
+    <LangVersion Condition=" '$(VisualStudioVersion)' != '10.0' ">4</LangVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\UnityVS_bin\Debug\</OutputPath>
+    <IntermediateOutputPath>Temp\UnityVS_obj\Debug\</IntermediateOutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DefineConstants>DEBUG;TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_5_2;UNITY_5_5;UNITY_5;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_GENERICS;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;INCLUDE_DYNAMIC_GI;INCLUDE_GI;PLATFORM_SUPPORTS_MONO;INCLUDE_PUBNUB;ENABLE_PLAYMODE_TESTS_RUNNER;ENABLE_SCRIPTING_NEW_CSHARP_COMPILER;UNITY_ANDROID;ENABLE_SUBSTANCE;UNITY_ANDROID_API;ENABLE_EGL;ENABLE_NETWORK;ENABLE_RUNTIME_GI;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITYWEBREQUEST;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;PLATFORM_SUPPORTS_ADS_ID;UNITY_CAN_SHOW_SPLASH_SCREEN;ENABLE_VIDEO;ENABLE_VR;ENABLE_UNITYADS_RUNTIME;UNITY_UNITYADS_API;ENABLE_MONO;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;UNITY_TEAM_LICENSE;ENABLE_VSTU</DefineConstants>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\UnityVS_bin\Release\</OutputPath>
+    <IntermediateOutputPath>Temp\UnityVS_obj\Release\</IntermediateOutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DefineConstants>TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_5_2;UNITY_5_5;UNITY_5;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_GENERICS;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;INCLUDE_DYNAMIC_GI;INCLUDE_GI;PLATFORM_SUPPORTS_MONO;INCLUDE_PUBNUB;ENABLE_PLAYMODE_TESTS_RUNNER;ENABLE_SCRIPTING_NEW_CSHARP_COMPILER;UNITY_ANDROID;ENABLE_SUBSTANCE;UNITY_ANDROID_API;ENABLE_EGL;ENABLE_NETWORK;ENABLE_RUNTIME_GI;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITYWEBREQUEST;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;PLATFORM_SUPPORTS_ADS_ID;UNITY_CAN_SHOW_SPLASH_SCREEN;ENABLE_VIDEO;ENABLE_VR;ENABLE_UNITYADS_RUNTIME;UNITY_UNITYADS_API;ENABLE_MONO;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;UNITY_TEAM_LICENSE;ENABLE_VSTU</DefineConstants>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="mscorlib" />
+    <Reference Include="System" />
+    <Reference Include="System.XML" />
+    <Reference Include="System.Core" />
+    <Reference Include="Boo.Lang" />
+    <Reference Include="UnityScript.Lang" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="UnityEngine">
+      <HintPath>Library\UnityAssemblies\UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UI">
+      <HintPath>Library\UnityAssemblies\UnityEngine.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Networking">
+      <HintPath>Library\UnityAssemblies\UnityEngine.Networking.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.PlaymodeTestsRunner">
+      <HintPath>Library\UnityAssemblies\UnityEngine.PlaymodeTestsRunner.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Analytics">
+      <HintPath>Library\UnityAssemblies\UnityEngine.Analytics.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.HoloLens">
+      <HintPath>Library\UnityAssemblies\UnityEngine.HoloLens.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.VR">
+      <HintPath>Library\UnityAssemblies\UnityEngine.VR.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor">
+      <HintPath>Library\UnityAssemblies\UnityEditor.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.iOS.Extensions.Xcode">
+      <HintPath>Library\UnityAssemblies\UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.iOS.Extensions.Common">
+      <HintPath>Library\UnityAssemblies\UnityEditor.iOS.Extensions.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="ICSharpCode.SharpZipLib">
+      <HintPath>Assets\Plugins\Libraries\SharpZipLib\ICSharpCode.SharpZipLib.dll</HintPath>
+    </Reference>
+    <Reference Include="DOTween">
+      <HintPath>Assets\Plugins\Libraries\DOTween\DOTween.dll</HintPath>
+    </Reference>
+    <Reference Include="INIFileParser">
+      <HintPath>Assets\Plugins\Libraries\IniFileParser\INIFileParser.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="PalantirZone.CSharp.Plugins.csproj">
+      <Project>{8B05F419-D651-96B9-56EA-E76DA16A28B2}</Project>
+      <Name>PalantirZone.CSharp.Plugins</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Assets\Scripts\Features\Authentication\Model\AuthenticationDomainController.cs" />
+    <Compile Include="Assets\Scripts\Features\Authentication\Model\PlayerRecordDomainController.cs" />
+    <Compile Include="Assets\Scripts\Features\HomeBase\Controller\HomeBaseController.cs" />
+    <Compile Include="Assets\Scripts\Features\HomeBase\Model\HomeBaseRenderData.cs" />
+    <Compile Include="Assets\Scripts\Features\HomeBase\Model\HomeBaseTransitionInfo.cs" />
+    <Compile Include="Assets\Scripts\Features\HomeBase\View\HomeBaseView.cs" />
+    <Compile Include="Assets\Scripts\Features\Localization\Model\LocalizationDO.cs" />
+    <Compile Include="Assets\Scripts\Features\Localization\Model\LocalizationDomainController.cs" />
+    <Compile Include="Assets\Scripts\Features\Messaging\View\CountdownMessageViewComponent.cs" />
+    <Compile Include="Assets\Scripts\Features\Messaging\View\ICountdownMessageView.cs" />
+    <Compile Include="Assets\Scripts\Features\Messaging\View\OneButtonMessageView.cs" />
+    <Compile Include="Assets\Scripts\Features\Messaging\View\OneButtonPopupView.cs" />
+    <Compile Include="Assets\Scripts\Features\Messaging\View\TwoButtonMessageView.cs" />
+    <Compile Include="Assets\Scripts\Features\Messaging\View\TwoButtonTapDismissableMessageView.cs" />
+    <Compile Include="Assets\Scripts\Features\Shared\InfoMessageComponent.cs" />
+    <Compile Include="Assets\Scripts\Features\Shared\UIButtonScaleLabel.cs" />
+    <Compile Include="Assets\Scripts\Features\Shared\UIUnhoverButtonAfterClickOnEvent.cs" />
+    <Compile Include="Assets\Scripts\Features\States\BootupState.cs" />
+    <Compile Include="Assets\Scripts\Features\States\HomeBaseState.cs" />
+    <Compile Include="Assets\Scripts\Features\States\InitialLoadState.cs" />
+    <Compile Include="Assets\Scripts\Features\States\LoginState.cs" />
+    <Compile Include="Assets\Scripts\Features\Tools\View\ToggleButton.cs" />
+    <Compile Include="Assets\Scripts\Features\Tools\View\UIGameButton.cs" />
+    <Compile Include="Assets\Scripts\Features\Transition\Controller\NguiTransitionController.cs" />
+    <Compile Include="Assets\Scripts\Features\Transition\View\NguiBusyWaitView.cs" />
+    <Compile Include="Assets\Scripts\Features\Transition\View\NguiFastTransitionView.cs" />
+    <Compile Include="Assets\Scripts\Features\Transition\View\NguiLoadingView.cs" />
+    <Compile Include="Assets\Scripts\Framework\DI\Binder.cs" />
+    <Compile Include="Assets\Scripts\Framework\DI\Binding.cs" />
+    <Compile Include="Assets\Scripts\Framework\DI\BindingBuilder.cs" />
+    <Compile Include="Assets\Scripts\Framework\DI\IBinder.cs" />
+    <Compile Include="Assets\Scripts\Framework\DI\IBinding.cs" />
+    <Compile Include="Assets\Scripts\Framework\DI\IBindingBuilder.cs" />
+    <Compile Include="Assets\Scripts\Framework\DI\IInjector.cs" />
+    <Compile Include="Assets\Scripts\Framework\DI\IInstantiator.cs" />
+    <Compile Include="Assets\Scripts\Framework\DI\IModule.cs" />
+    <Compile Include="Assets\Scripts\Framework\DI\IProvider.cs" />
+    <Compile Include="Assets\Scripts\Framework\DI\IProviderAsync.cs" />
+    <Compile Include="Assets\Scripts\Framework\DI\IScopedBindingBuilder.cs" />
+    <Compile Include="Assets\Scripts\Framework\DI\Inject.cs" />
+    <Compile Include="Assets\Scripts\Framework\DI\Injection.cs" />
+    <Compile Include="Assets\Scripts\Framework\DI\Injector.cs" />
+    <Compile Include="Assets\Scripts\Framework\DI\InjectorModule.cs" />
+    <Compile Include="Assets\Scripts\Framework\DI\Instantiator.cs" />
+    <Compile Include="Assets\Scripts\Framework\DI\MemberContext.cs" />
+    <Compile Include="Assets\Scripts\Framework\DI\Module.cs" />
+    <Compile Include="Assets\Scripts\Framework\DI\PostConstruct.cs" />
+    <Compile Include="Assets\Scripts\Framework\DI\Provider.cs" />
+    <Compile Include="Assets\Scripts\Framework\DI\Scope.cs" />
+    <Compile Include="Assets\Scripts\Framework\Dispatch\Dispatch.cs" />
+    <Compile Include="Assets\Scripts\Framework\Dispatch\DispatchHandler.cs" />
+    <Compile Include="Assets\Scripts\Framework\Dispatch\IDispatchable.cs" />
+    <Compile Include="Assets\Scripts\Framework\Lifecycle\CoroutineCreator.cs" />
+    <Compile Include="Assets\Scripts\Framework\Lifecycle\IDomainController.cs" />
+    <Compile Include="Assets\Scripts\Framework\Lifecycle\IInitializable.cs" />
+    <Compile Include="Assets\Scripts\Framework\Lifecycle\ILifecycleAware.cs" />
+    <Compile Include="Assets\Scripts\Framework\Lifecycle\Initializer.cs" />
+    <Compile Include="Assets\Scripts\Framework\Lifecycle\MonoBehaviourEventNotifierComponent.cs" />
+    <Compile Include="Assets\Scripts\Framework\Lifecycle\MonoBehaviourEventNotifierSystem.cs" />
+    <Compile Include="Assets\Scripts\Framework\Localization\LanguageType.cs" />
+    <Compile Include="Assets\Scripts\Framework\Localization\LocStringDatabase.cs" />
+    <Compile Include="Assets\Scripts\Framework\Localization\LocalizationLoader.cs" />
+    <Compile Include="Assets\Scripts\Framework\Localization\LocalizationManager.cs" />
+    <Compile Include="Assets\Scripts\Framework\Logging\LogDispatcher.cs" />
+    <Compile Include="Assets\Scripts\Framework\Logging\Logging.cs" />
+    <Compile Include="Assets\Scripts\Framework\MemoryPlugin\MemoryManager.cs" />
+    <Compile Include="Assets\Scripts\Framework\Utility\AsyncJobTracker.cs" />
+    <Compile Include="Assets\Scripts\Framework\Utility\CollectionExtensions.cs" />
+    <Compile Include="Assets\Scripts\Framework\Utility\CompressionUtils.cs" />
+    <Compile Include="Assets\Scripts\Framework\Utility\DebugUtils.cs" />
+    <Compile Include="Assets\Scripts\Framework\Utility\DeviceUtil.cs" />
+    <Compile Include="Assets\Scripts\Framework\Utility\DictionaryUtils.cs" />
+    <Compile Include="Assets\Scripts\Framework\Utility\EnumUtil.cs" />
+    <Compile Include="Assets\Scripts\Framework\Utility\EnumerableUtils.cs" />
+    <Compile Include="Assets\Scripts\Framework\Utility\ExitUtil.cs" />
+    <Compile Include="Assets\Scripts\Framework\Utility\FieldPersistor.cs" />
+    <Compile Include="Assets\Scripts\Framework\Utility\FileUtils.cs" />
+    <Compile Include="Assets\Scripts\Framework\Utility\FindMissingScripts.cs" />
+    <Compile Include="Assets\Scripts\Framework\Utility\HashUtil.cs" />
+    <Compile Include="Assets\Scripts\Framework\Utility\IniLoader.cs" />
+    <Compile Include="Assets\Scripts\Framework\Utility\JavaHashCode.cs" />
+    <Compile Include="Assets\Scripts\Framework\Utility\JavaRandom.cs" />
+    <Compile Include="Assets\Scripts\Framework\Utility\LanguageUtil.cs" />
+    <Compile Include="Assets\Scripts\Framework\Utility\LinkedHashSet.cs" />
+    <Compile Include="Assets\Scripts\Framework\Utility\LocalPrefs.cs" />
+    <Compile Include="Assets\Scripts\Framework\Utility\MathUtils.cs" />
+    <Compile Include="Assets\Scripts\Framework\Utility\MemoryUtils.cs" />
+    <Compile Include="Assets\Scripts\Framework\Utility\Metrics.cs" />
+    <Compile Include="Assets\Scripts\Framework\Utility\NativeStore.cs" />
+    <Compile Include="Assets\Scripts\Framework\Utility\NguiUtils.cs" />
+    <Compile Include="Assets\Scripts\Framework\Utility\NumberFormatUtil.cs" />
+    <Compile Include="Assets\Scripts\Framework\Utility\ProfilerUtil.cs" />
+    <Compile Include="Assets\Scripts\Framework\Utility\SecurityUtils.cs" />
+    <Compile Include="Assets\Scripts\Framework\Utility\StringUtils.cs" />
+    <Compile Include="Assets\Scripts\Framework\Utility\TimeInfo.cs" />
+    <Compile Include="Assets\Scripts\Framework\Utility\TimeUtil.cs" />
+    <Compile Include="Assets\Scripts\Framework\Utility\TransformUtil.cs" />
+    <Compile Include="Assets\Scripts\Framework\Utility\TweenUtils.cs" />
+    <Compile Include="Assets\Scripts\Framework\Utility\TypeExtensions.cs" />
+    <Compile Include="Assets\Scripts\Framework\Utility\UIUtils.cs" />
+    <Compile Include="Assets\Scripts\Framework\Utility\UnityEngineExtensions.cs" />
+    <Compile Include="Assets\Scripts\Framework\Utility\VFXUtils.cs" />
+    <Compile Include="Assets\Scripts\Framework\Utility\Waiter.cs" />
+    <Compile Include="Assets\Scripts\Framework\Utility\WebClientLoader.cs" />
+    <Compile Include="Assets\Scripts\Libraries\DOTween\DOTweenManager.cs" />
+    <Compile Include="Assets\Scripts\Service\LocalizationService.cs" />
+    <Compile Include="Assets\Scripts\Service\PlayerService.cs" />
+    <Compile Include="Assets\Scripts\Service\ResponceCodeEnum.cs" />
+    <Compile Include="Assets\Scripts\Systems\Audio\AudioSystem.cs" />
+    <Compile Include="Assets\Scripts\Systems\Client\Client.cs" />
+    <Compile Include="Assets\Scripts\Systems\Config\Config.Fields.cs" />
+    <Compile Include="Assets\Scripts\Systems\Config\Config.cs" />
+    <Compile Include="Assets\Scripts\Systems\Config\ConfigBuilder.cs" />
+    <Compile Include="Assets\Scripts\Systems\Feature\FeatureController.cs" />
+    <Compile Include="Assets\Scripts\Systems\Feature\IFeatureController.cs" />
+    <Compile Include="Assets\Scripts\Systems\Feature\IOccludable.cs" />
+    <Compile Include="Assets\Scripts\Systems\FeatureLock\FeatureLockController.cs" />
+    <Compile Include="Assets\Scripts\Systems\Lifecycle\EntryPoint.cs" />
+    <Compile Include="Assets\Scripts\Systems\Lifecycle\LifecycleController.cs" />
+    <Compile Include="Assets\Scripts\Systems\Lifecycle\StartupScript.cs" />
+    <Compile Include="Assets\Scripts\Systems\Localization\LocalizationConfig.Fields.cs" />
+    <Compile Include="Assets\Scripts\Systems\Localization\LocalizationConfig.cs" />
+    <Compile Include="Assets\Scripts\Systems\Messaging\MessageController.cs" />
+    <Compile Include="Assets\Scripts\Systems\Modules\AssetModule.cs" />
+    <Compile Include="Assets\Scripts\Systems\Modules\BootModule.cs" />
+    <Compile Include="Assets\Scripts\Systems\Modules\ControllerModule.cs" />
+    <Compile Include="Assets\Scripts\Systems\Modules\DomainModule.cs" />
+    <Compile Include="Assets\Scripts\Systems\Modules\GameModule.cs" />
+    <Compile Include="Assets\Scripts\Systems\Modules\PluginModule.cs" />
+    <Compile Include="Assets\Scripts\Systems\Modules\ServiceModule.cs" />
+    <Compile Include="Assets\Scripts\Systems\Modules\StateModule.cs" />
+    <Compile Include="Assets\Scripts\Systems\Modules\SystemModule.cs" />
+    <Compile Include="Assets\Scripts\Systems\Network\NetworkService.cs" />
+    <Compile Include="Assets\Scripts\Systems\Resources\ResourceHandle.cs" />
+    <Compile Include="Assets\Scripts\Systems\State\State.cs" />
+    <Compile Include="Assets\Scripts\Systems\State\StateController.cs" />
+    <Compile Include="Assets\Scripts\Systems\Time\CountDownTimer.cs" />
+    <Compile Include="Assets\Scripts\Systems\Time\TimeScaleManager.cs" />
+    <Compile Include="Assets\Scripts\Systems\Tools\CameraAsBackground.cs" />
+    <Compile Include="Assets\Scripts\Systems\Tools\DownloadObbExample.cs" />
+    <Compile Include="Assets\Scripts\Systems\Tools\ExtensionMethods.cs" />
+    <Compile Include="Assets\Scripts\Systems\Tools\FPSDisplay.cs" />
+    <Compile Include="Assets\Scripts\Systems\Tools\HideInvisible.cs" />
+    <Compile Include="Assets\Scripts\Systems\Tools\JsonConverter\RewardItemConverter.cs" />
+    <Compile Include="Assets\Scripts\Systems\Tools\Locale.cs" />
+    <Compile Include="Assets\Scripts\Systems\Tools\NGUIRayCastingBlocker.cs" />
+    <Compile Include="Assets\Scripts\Systems\Tools\NGUIScriptBlocker.cs" />
+    <Compile Include="Assets\Scripts\Systems\Tools\SingleCountDownTimer.cs" />
+    <Compile Include="Assets\Scripts\Systems\Tools\TimeHelper.cs" />
+    <Compile Include="Assets\Scripts\Systems\Tools\ZFighter.cs" />
+    <Compile Include="Assets\Scripts\Systems\UI\BackdropCamera.cs" />
+    <Compile Include="Assets\Scripts\Systems\UI\DepthEnum.cs" />
+    <Compile Include="Assets\Scripts\Systems\UI\IScrollListProviderItem.cs" />
+    <Compile Include="Assets\Scripts\Systems\UI\NguiAnimGroup.cs" />
+    <Compile Include="Assets\Scripts\Systems\UI\NguiLabelCounter.cs" />
+    <Compile Include="Assets\Scripts\Systems\UI\NguiView.cs" />
+    <Compile Include="Assets\Scripts\Systems\UI\ScrollListProvider.cs" />
+    <Compile Include="Assets\Scripts\Systems\UI\UIButtonChanger.cs" />
+    <Compile Include="Assets\Scripts\Systems\UI\UIClickThrough.cs" />
+    <Compile Include="Assets\Scripts\Systems\UI\UIDisableClickableButton.cs" />
+    <Compile Include="Assets\Scripts\Systems\UI\UIGenericInputHandler.cs" />
+    <Compile Include="Assets\Scripts\Systems\UI\UILabelButton.cs" />
+    <Compile Include="Assets\Scripts\Systems\UI\UILabelIconButton.cs" />
+    <Compile Include="Assets\Scripts\Systems\UI\UILocalizedLabel.cs" />
+    <Compile Include="Assets\Scripts\Systems\UI\UISystem.cs" />
+    <Compile Include="Assets\Scripts\Systems\UI\UIWrapGridContent.cs" />
+    <Compile Include="Assets\Scripts\Systems\UI\ViewController.cs" />
+    <Compile Include="Assets\Scripts\Systems\UI\ViewProvider.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Editor\Libraries\DOTween\Editor\DOTweenEditor.XML" />
+    <None Include="Assets\Editor\Libraries\codeandweb.com\Editor\SettingsTexturePackerImporter.txt" />
+    <None Include="Assets\Fonts\OpenSans\License!.txt" />
+    <None Include="Assets\Plugins\Libraries\DOTween\DOTween.XML" />
+    <None Include="Assets\Plugins\Libraries\DOTween\readme.txt" />
+    <None Include="Assets\Plugins\Libraries\IniFileParser\INIFileParser.xml" />
+    <None Include="Assets\Plugins\Libraries\JsonFx\License.txt" />
+    <None Include="Assets\Plugins\Libraries\JsonFx\Readme.txt" />
+    <None Include="Assets\Plugins\Libraries\NGUI\ReadMe - 3.11.1.txt" />
+    <None Include="Assets\Plugins\Libraries\NGUI\Resources\Shaders\Unlit - Premultiplied Colored (TextureClip).shader" />
+    <None Include="Assets\Plugins\Libraries\NGUI\Resources\Shaders\Unlit - Premultiplied Colored 1.shader" />
+    <None Include="Assets\Plugins\Libraries\NGUI\Resources\Shaders\Unlit - Premultiplied Colored 2.shader" />
+    <None Include="Assets\Plugins\Libraries\NGUI\Resources\Shaders\Unlit - Premultiplied Colored 3.shader" />
+    <None Include="Assets\Plugins\Libraries\NGUI\Resources\Shaders\Unlit - Premultiplied Colored.shader" />
+    <None Include="Assets\Plugins\Libraries\NGUI\Resources\Shaders\Unlit - Text (TextureClip).shader" />
+    <None Include="Assets\Plugins\Libraries\NGUI\Resources\Shaders\Unlit - Text 1.shader" />
+    <None Include="Assets\Plugins\Libraries\NGUI\Resources\Shaders\Unlit - Text 2.shader" />
+    <None Include="Assets\Plugins\Libraries\NGUI\Resources\Shaders\Unlit - Text 3.shader" />
+    <None Include="Assets\Plugins\Libraries\NGUI\Resources\Shaders\Unlit - Text.shader" />
+    <None Include="Assets\Plugins\Libraries\NGUI\Resources\Shaders\Unlit - Transparent Colored (Packed) (TextureClip).shader" />
+    <None Include="Assets\Plugins\Libraries\NGUI\Resources\Shaders\Unlit - Transparent Colored (TextureClip).shader" />
+    <None Include="Assets\Plugins\Libraries\NGUI\Resources\Shaders\Unlit - Transparent Colored 1.shader" />
+    <None Include="Assets\Plugins\Libraries\NGUI\Resources\Shaders\Unlit - Transparent Colored 2.shader" />
+    <None Include="Assets\Plugins\Libraries\NGUI\Resources\Shaders\Unlit - Transparent Colored 3.shader" />
+    <None Include="Assets\Plugins\Libraries\NGUI\Resources\Shaders\Unlit - Transparent Colored.shader" />
+    <None Include="Assets\Plugins\Libraries\NGUI\Resources\Shaders\Unlit - Transparent Masked 1.shader" />
+    <None Include="Assets\Plugins\Libraries\NGUI\Resources\Shaders\Unlit - Transparent Masked 2.shader" />
+    <None Include="Assets\Plugins\Libraries\NGUI\Resources\Shaders\Unlit - Transparent Masked 3.shader" />
+    <None Include="Assets\Plugins\Libraries\NGUI\Resources\Shaders\Unlit - Transparent Masked.shader" />
+    <None Include="Assets\Plugins\Libraries\NGUI\Resources\Shaders\Unlit - Transparent Packed 1.shader" />
+    <None Include="Assets\Plugins\Libraries\NGUI\Resources\Shaders\Unlit - Transparent Packed 2.shader" />
+    <None Include="Assets\Plugins\Libraries\NGUI\Resources\Shaders\Unlit - Transparent Packed 3.shader" />
+    <None Include="Assets\Plugins\Libraries\NGUI\Resources\Shaders\Unlit - Transparent Packed.shader" />
+    <None Include="Assets\Plugins\Libraries\UniRx\ReadMe.txt" />
+    <None Include="Assets\Resources\Localization\Loc_ENG_US.txt" />
+    <None Include="Assets\Resources\Localization\Loc_RUS_RU.txt" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath)\SyntaxTree\UnityVS\2015\UnityVS.CSharp.targets" />
+</Project>

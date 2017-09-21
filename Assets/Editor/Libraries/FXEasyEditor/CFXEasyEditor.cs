@@ -7,7 +7,7 @@ public class FXEasyEditor : EditorWindow
 {
 	static private FXEasyEditor SingleWindow;
 	
-	[MenuItem("OctoBox/FX Easy Editor")]
+	[MenuItem("Settings/FX Easy Editor")]
 	static void ShowWindow()
 	{
 		FXEasyEditor window = EditorWindow.GetWindow<FXEasyEditor>(EditorPrefs.GetBool("FX_ShowAsToolbox", true), "FX Easy Editor", true);

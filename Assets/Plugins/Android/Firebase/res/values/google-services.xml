@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+  <string name="firebase_database_url" translatable="false">https://palantirzone-90d59.firebaseio.com</string>
+  <string name="gcm_defaultSenderId" translatable="false">249951253881</string>
+  <string name="google_storage_bucket" translatable="false">palantirzone-90d59.appspot.com</string>
+  <string name="project_id" translatable="false">palantirzone-90d59</string>
+  <string name="google_api_key" translatable="false">AIzaSyCMoChKV2ralDxhUyfhEK033OSP1HvmFlc</string>
+  <string name="google_crash_reporting_api_key" translatable="false">AIzaSyCMoChKV2ralDxhUyfhEK033OSP1HvmFlc</string>
+  <string name="google_app_id" translatable="false">1:249951253881:android:a01ea60630ca432e</string>
+  <string name="default_web_client_id" translatable="false">249951253881-7i1n9l62u66rdrsv3hk5bnpv3spd0kdm.apps.googleusercontent.com</string>
+</resources>

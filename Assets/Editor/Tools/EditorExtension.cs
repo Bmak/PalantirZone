@@ -5,7 +5,7 @@ public class EditorExtension
 {
     // Deep clone
 
-    [MenuItem("OctoBox/Erase player prefs", false, 500)]
+    [MenuItem("Settings/Erase player prefs", false, 500)]
     static void DoErasePlayerPrefs()
     {
         PlayerPrefs.DeleteAll();

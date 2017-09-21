@@ -10,7 +10,7 @@ public class HomeBaseController : FeatureController, IOccludable
 
 	[Inject] private PlayerService _playerService;
 
-    [Inject] private LocalizationManager _localizationManager;
+    [Inject] private FirebaseAuthService _firebaseAuthService;
 
 	private HomeBaseView _mainView;
 	private HomeBaseTransitionInfo _transitionInfo;
@@ -33,12 +33,29 @@ public class HomeBaseController : FeatureController, IOccludable
 
             HomeBaseRenderData data = new HomeBaseRenderData
             {
-                StartText = "Welcome!",
+                SetUserCredentialsAction = OnSetUserCredentials,
+                
             };
             _mainView.InitializeViewData(data);
             ResourcesLoaded();
         });
 
+    }
+
+    private void OnSetUserCredentials(CredentialsInputType type, string email, string password)
+    {
+        _mainView.SetStatePanels(true);
+        Log.Debug(String.Format("SET DATA: {0} / {1} / {2}", email, password, type));
+
+        switch (type)
+        {
+            case CredentialsInputType.Register:
+                _firebaseAuthService.AddNewUser(email, password);
+                break;
+            case CredentialsInputType.SignIn:
+                _firebaseAuthService.SignInUser(email, password);
+                break;
+        }
     }
 
     private void ToggleMusicSwitched(bool value)

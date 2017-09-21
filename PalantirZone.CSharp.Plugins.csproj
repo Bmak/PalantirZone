@@ -12,7 +12,7 @@
     <ProjectTypeGuids>{E097FAD1-6243-4DAD-9C02-E9B9EFC3FFC1};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <TargetFrameworkIdentifier>.NETFramework</TargetFrameworkIdentifier>
     <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
-    <TargetFrameworkProfile>Unity Subset v3.5</TargetFrameworkProfile>
+    <TargetFrameworkProfile>Unity Full v3.5</TargetFrameworkProfile>
     <CompilerResponseFile></CompilerResponseFile>
     <UnityProjectType>GamePlugins:3</UnityProjectType>
     <UnityBuildTarget>Android:13</UnityBuildTarget>
@@ -79,14 +79,35 @@
     <Reference Include="UnityEditor.iOS.Extensions.Common">
       <HintPath>Library\UnityAssemblies\UnityEditor.iOS.Extensions.Common.dll</HintPath>
     </Reference>
-    <Reference Include="ICSharpCode.SharpZipLib">
-      <HintPath>Assets\Plugins\Libraries\SharpZipLib\ICSharpCode.SharpZipLib.dll</HintPath>
+    <Reference Include="Firebase.App">
+      <HintPath>Assets\Firebase\Plugins\Firebase.App.dll</HintPath>
+    </Reference>
+    <Reference Include="Firebase.Auth">
+      <HintPath>Assets\Firebase\Plugins\Firebase.Auth.dll</HintPath>
+    </Reference>
+    <Reference Include="Firebase.Database">
+      <HintPath>Assets\Firebase\Plugins\Firebase.Database.dll</HintPath>
+    </Reference>
+    <Reference Include="Google.MiniJson">
+      <HintPath>Assets\Firebase\Plugins\Google.MiniJson.dll</HintPath>
+    </Reference>
+    <Reference Include="Google.Sharpen">
+      <HintPath>Assets\Firebase\Plugins\Google.Sharpen.dll</HintPath>
     </Reference>
     <Reference Include="DOTween">
       <HintPath>Assets\Plugins\Libraries\DOTween\DOTween.dll</HintPath>
     </Reference>
     <Reference Include="INIFileParser">
       <HintPath>Assets\Plugins\Libraries\IniFileParser\INIFileParser.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Compat">
+      <HintPath>Assets\Plugins\Libraries\Parse\Unity.Compat.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Tasks">
+      <HintPath>Assets\Plugins\Libraries\Parse\Unity.Tasks.dll</HintPath>
+    </Reference>
+    <Reference Include="ICSharpCode.SharpZipLib">
+      <HintPath>Assets\Plugins\Libraries\SharpZipLib\ICSharpCode.SharpZipLib.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
@@ -469,7 +490,20 @@
   <ItemGroup>
     <None Include="Assets\Editor\Libraries\DOTween\Editor\DOTweenEditor.XML" />
     <None Include="Assets\Editor\Libraries\codeandweb.com\Editor\SettingsTexturePackerImporter.txt" />
+    <None Include="Assets\Firebase\Editor\FirebaseAuth_v4.1.0_manifest.txt" />
+    <None Include="Assets\Firebase\Editor\FirebaseDatabase_v4.1.0_manifest.txt" />
+    <None Include="Assets\Firebase\Plugins\Http\link.xml" />
+    <None Include="Assets\Firebase\Plugins\link.xml" />
+    <None Include="Assets\Firebase\m2repository\com\google\firebase\firebase-app-unity\maven-metadata.xml" />
+    <None Include="Assets\Firebase\m2repository\com\google\firebase\firebase-auth-unity\maven-metadata.xml" />
     <None Include="Assets\Fonts\OpenSans\License!.txt" />
+    <None Include="Assets\PlayServicesResolver\Editor\play-services-resolver_v1.2.45.0.txt" />
+    <None Include="Assets\Plugins\Android\Firebase\AndroidManifest.xml" />
+    <None Include="Assets\Plugins\Android\Firebase\res\values\google-services.xml" />
+    <None Include="Assets\Plugins\Android\firebase-common-11.2.0\AndroidManifest.xml" />
+    <None Include="Assets\Plugins\Android\firebase-core-11.2.0\AndroidManifest.xml" />
+    <None Include="Assets\Plugins\Android\firebase-core-11.2.0\R.txt" />
+    <None Include="Assets\Plugins\Android\firebase-iid-11.2.0\AndroidManifest.xml" />
     <None Include="Assets\Plugins\Libraries\DOTween\DOTween.XML" />
     <None Include="Assets\Plugins\Libraries\DOTween\readme.txt" />
     <None Include="Assets\Plugins\Libraries\IniFileParser\INIFileParser.xml" />

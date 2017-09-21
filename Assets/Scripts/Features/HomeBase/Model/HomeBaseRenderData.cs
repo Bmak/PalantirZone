@@ -1,4 +1,6 @@
+using System;
+
 public class HomeBaseRenderData
 {
-    public string StartText { get; set; }
+    public Action<CredentialsInputType, string, string> SetUserCredentialsAction { get; set; }
 }

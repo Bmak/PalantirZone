@@ -88,7 +88,7 @@ public static class Metrics
     }
 
     #if UNITY_EDITOR
-    [MenuItem("OctoBox/Write Metrics Reports", false, 500)]
+    [MenuItem("Settings/Write Metrics Reports", false, 500)]
     public static void WriteMetricsReportMenuItem()
     {
         Metrics.WriteReports();

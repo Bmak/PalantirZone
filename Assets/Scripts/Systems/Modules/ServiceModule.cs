@@ -6,6 +6,7 @@ public class ServiceModule : Module
     {
         Bind<PlayerService>();
 		Bind<LocalizationService>();
+		Bind<FirebaseAuthService>();
         
         /*
                 Bind<BootStrapLoader>();

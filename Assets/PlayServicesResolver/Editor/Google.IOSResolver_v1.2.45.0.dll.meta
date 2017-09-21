@@ -1,0 +1,29 @@
+fileFormatVersion: 2
+guid: 8efa587d3ba444c39f8242611b282423
+labels:
+- gvh
+- gvh_targets-editor
+- gvh_version-1.2.45.0
+timeCreated: 1506028960
+licenseType: Free
+PluginImporter:
+  serializedVersion: 1
+  iconMap: {}
+  executionOrder: {}
+  isPreloaded: 0
+  isOverridable: 0
+  platformData:
+    Any:
+      enabled: 0
+      settings: {}
+    Editor:
+      enabled: 1
+      settings:
+        DefaultValueInitialized: true
+    WindowsStoreApps:
+      enabled: 0
+      settings:
+        CPU: AnyCPU
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
